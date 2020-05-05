@@ -15,3 +15,9 @@ ports:
   # to the right URL (found with `gp url <port>`)
   - port: 35729
     onOpen: ignore
+
+vscode:
+  extensions:
+    - spmeesseman.vscode-taskexplorer@1.26.3:jWv97Y3IpQAHv2qzpsQ5+A==
+    - samverschueren.linter-xo@2.3.3:OupKwcpWq2n4ERC1cVBpGQ==
+    - maty.vscode-mocha-sidebar@0.22.2:36b0Ya+VBWm0l513u6bBNQ==
