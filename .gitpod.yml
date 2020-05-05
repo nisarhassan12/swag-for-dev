@@ -1,7 +1,9 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: npm install
+  - init: |
+      mkdir .vscode; echo '{"typescript.validate.enable": false}' > .vscode/settings.json
+      npm install
     command: npm start
 ports:
   # preview
